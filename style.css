@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #73d1cc 0%, #3f4850 100%);
+  margin: 0;
+  color: #fff;
+}
+
+.vending-machine {
+  background: #fff;
+  padding: 32px 48px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.18), 0 1.5px 4px rgba(0,0,0,0.08);
+  text-align: center;
+  min-width: 340px;
+  max-width: 95vw;
+  margin-top: 20px;
+  color: #333;
+}
+
+.vending-machine h1 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #4a4a6a;
+  letter-spacing: 1px;
+}
+
+.coins, .produtos {
+  margin: 18px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.coins button, .produtos button, .sair {
+  margin: 0;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  background: linear-gradient(90deg, #ffffff 0%, #7ed6ca 100%);
+  color: #333;
+  box-shadow: 0 2px 8px rgba(67,198,172,0.08);
+  transition: background 0.2s, transform 0.15s;
+}
+
+.coins button:hover, .produtos button:hover, .sair:hover {
+  background: linear-gradient(90deg, #405551 0%, #ffffff 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+#mensagem {
+  font-weight: bold;
+  color: #43c6ac;
+  margin-top: 18px;
+  font-size: 1.1rem;
+  min-height: 24px;
+}
+
+#saldo {
+  font-weight: bold;
+  margin-top: 12px;
+  color: #4a4a6a;
+  font-size: 1.05rem;
+}
+
+.sair {
+  margin-top: 20px;
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+  color: #a94442;
+  font-weight: bold;
+  border: none;
+}
+
+.sair:hover {
+  background: linear-gradient(90deg, #fcb69f 0%, #ffecd2 100%);
+  color: #fff;
+}
+
+.automato-container {
+  margin: 30px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.18);
+  width: 820px;
+  color: #333;
+}
+.automato-container h2 {
+  margin-top: 0;
+  color: #4a4a6a;
+}   

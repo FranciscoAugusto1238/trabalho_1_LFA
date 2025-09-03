@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vending Machine Manual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="vending-machine">
+    <h1>Vendinha Manual</h1>
+    <p>Saldo atual: <span id="saldo">0</span> centavos (Estado: <span id="estado">q0</span>)</p>
+
+    <div class="moedas">
+      <button class="moeda" data-valor="5">Inserir 5¢</button>
+      <button class="moeda" data-valor="10">Inserir 10¢</button>
+      <button class="moeda" data-valor="25">Inserir 25¢</button>
+    </div>
+
+    <div class="produtos">
+      <button class="produto" data-nome="Bala de Coca">Comprar Bala de Coca (30¢)</button>
+      <button class="produto" data-nome="Bolinha de Chocolate">Comprar Bolinha de Chocolate (30¢)</button>
+      <button class="produto" data-nome="Moeda de Chocolate">Comprar Moeda de Chocolate (30¢)</button>
+    </div>
+
+    <p id="mensagem"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
